@@ -1,0 +1,113 @@
+.work-together {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.work-together__title {
+  position: relative;
+
+  @include secondary-font(62px, 900, 74px);
+  columns: $main-text-color;
+}
+
+.work-together__subtitle {
+  @include secondary-font(20px, 500, 30px);
+  color: $main-text-color;
+  margin-bottom: 55px;
+}
+
+.work-together__label {
+  width: 820px;
+  display: block;
+  margin-bottom: 30px;
+
+  &::after {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #007562;
+
+    .work-together__input:focus + &,
+    .work-together__textarea:focus + & {
+      background-color: $accent-color;
+      box-shadow: 0px 0px 10px $accent-color;
+    }
+  }
+}
+
+.work-together__input {
+  display: block;
+  width: 820px;
+  height: 57px;
+  padding-left: 20px;
+
+  outline: none;
+  background-color: transparent;
+
+  @include first-font(20px, 300, 40px);
+  color: $accent-color;
+
+  border: none;
+
+  &::placeholder {
+    @include first-font(20px, 300, 40px);
+    color: #808080;
+  }
+
+  &:focus {
+    &::placeholder {
+      @include first-font(20px, 300, 40px);
+      color: $main-text-color;
+    }
+  }
+}
+
+.textarea__label {
+  margin-bottom: 60px;
+}
+
+.work-together__textarea {
+  display: block;
+  width: 820px;
+  height: 160px;
+  padding-top: 10px;
+  padding-left: 20px;
+
+  outline: none;
+  resize: none;
+  background-color: transparent;
+
+  @include first-font(20px, 300, 40px);
+  color: $accent-color;
+
+  border: none;
+
+  &::placeholder {
+    @include first-font(20px, 300, 40px);
+    color: #808080;
+  }
+
+  &:focus {
+    &::placeholder {
+      @include first-font(20px, 300, 40px);
+      color: $main-text-color;
+    }
+  }
+}
+
+.work-together__submit {
+  @include button;
+}
+
+.work-together__glitch-bg {
+  width: 500px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 344px;
+
+  mix-blend-mode: darken;
+  pointer-events: none;
+}

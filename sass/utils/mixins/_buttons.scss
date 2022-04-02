@@ -1,0 +1,27 @@
+@mixin button {
+  display: inline-flex;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  width: 295px;
+  height: 60px;
+  display: block;
+
+  margin: 0 auto;
+
+  @include secondary-font(16px, 500, 19px);
+  color: $main-text-color;
+
+  background-color: #0d0017;
+  border: 1px solid $accent-color;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px $accent-color;
+  border-radius: 260px;
+
+  &:hover {
+    box-shadow: 0px 0px 25px $accent-color;
+  }
+}
+

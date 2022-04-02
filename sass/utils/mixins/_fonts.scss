@@ -1,0 +1,23 @@
+// Миксин для шрифта (размер шрифта, жирность, line-height, letter-spacing)
+
+@mixin first-font($font-size, $font-weight, $line-height) {
+  font-family: $first-font;
+  font-style: normal;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height / $font-size;
+}
+
+@mixin secondary-font(
+  $font-size,
+  $font-weight,
+  $line-height,
+  $letter-spacing: -0.01em
+) {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height / $font-size;
+  letter-spacing: $letter-spacing;
+}

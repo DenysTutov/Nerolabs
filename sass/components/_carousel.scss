@@ -1,0 +1,63 @@
+.carousel {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  // background-image: url(../../images/bg-light.png);
+  // background-repeat: no-repeat;
+  // background-size: auto;
+  // background-position: -400px -150px;
+}
+
+.card__item {
+  display: flex;
+}
+
+.card__refs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.card__link {
+  display: block;
+  height: 45px;
+  @include secondary-font(20px, 500, 24px);
+  color: $secondary-text-color;
+  padding-right: 47px;
+  padding-left: 47px;
+  border-bottom: 2px solid #333333;
+
+  &.is-active {
+    color: $accent-color;
+    border-bottom: 2px solid $accent-color;
+  }
+}
+
+.card__img {
+  width: 450px;
+  height: 470px;
+
+  position: relative;
+  top: 20px;
+  margin-right: 90px;
+}
+
+.card__title {
+  @include secondary-font(32px, 500, 38px);
+  color: $main-text-color;
+  margin-bottom: 48px;
+
+  &--big-size {
+    @include secondary-font(62px, 900, 64px);
+  }
+}
+
+.card__text {
+  width: 405px;
+  @include first-font(20px, 300, 34px);
+  color: $secondary-text-color;
+
+  &:not(:last-child) {
+    margin-bottom: 34px;
+  }
+}

@@ -1,0 +1,24 @@
+// Utils and mixins
+@import "./utils/variables";
+@import "./utils/mixins/fonts";
+@import "./utils/mixins/buttons";
+// @import "./components/mixins/base-mixins";
+@import "./utils/modern-normalize";
+@import "./base/reset";
+@import "./utils/visually-hidden";
+
+// // Base
+@import "./base/base";
+@import "./utils/container";
+// @import "./utils/section";
+
+// // Components
+@import "./components/header";
+@import "./components/collection";
+@import "./components/carousel";
+@import "./components/features";
+@import "./components/work-together";
+@import "./components/footer";
+
+// // Scroll Up
+// @import "./components/scrollup";

@@ -1,0 +1,25 @@
+.collection {
+  padding-top: 100px;
+}
+
+.collection__list {
+  width: 100%;
+}
+
+.collection__item {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  &--margin-bottom {
+    margin-bottom: 20px;
+  }
+}
+
+.collection__img {
+  display: block;
+  border-radius: 10px;
+  width: 295px;
+  height: 295px;
+}

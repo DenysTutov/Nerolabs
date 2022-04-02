@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Turismo CF";
+  src: url("TurismoCF-300.eot");
+  src: local("Turismo CF 300"), local("TurismoCF-300"),
+    url("TurismoCF-300.eot?#iefix") format("embedded-opentype"),
+    url("TurismoCF-300.woff2") format("woff2"),
+    url("TurismoCF-300.woff") format("woff"),
+    url("TurismoCF-300.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Turismo CF";
+  src: url("TurismoCF-600.eot");
+  src: local("Turismo CF 600"), local("TurismoCF-600"),
+    url("TurismoCF-600.eot?#iefix") format("embedded-opentype"),
+    url("TurismoCF-600.woff2") format("woff2"),
+    url("TurismoCF-600.woff") format("woff"),
+    url("TurismoCF-600.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Turismo CF";
+  src: url("TurismoCF-500.eot");
+  src: local("Turismo CF 500"), local("TurismoCF-500"),
+    url("TurismoCF-500.eot?#iefix") format("embedded-opentype"),
+    url("TurismoCF-500.woff2") format("woff2"),
+    url("TurismoCF-500.woff") format("woff"),
+    url("TurismoCF-500.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Turismo CF";
+  src: url("TurismoCF-200.eot");
+  src: local("Turismo CF 200"), local("TurismoCF-200"),
+    url("TurismoCF-200.eot?#iefix") format("embedded-opentype"),
+    url("TurismoCF-200.woff2") format("woff2"),
+    url("TurismoCF-200.woff") format("woff"),
+    url("TurismoCF-200.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Turismo CF";
+  src: url("TurismoCF-0.eot");
+  src: local("Turismo CF 0"), local("TurismoCF-0"),
+    url("TurismoCF-0.eot?#iefix") format("embedded-opentype"),
+    url("TurismoCF-0.woff2") format("woff2"),
+    url("TurismoCF-0.woff") format("woff"),
+    url("TurismoCF-0.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Turismo CF";
+  src: url("TurismoCF-400.eot");
+  src: local("Turismo CF 400"), local("TurismoCF-400"),
+    url("TurismoCF-400.eot?#iefix") format("embedded-opentype"),
+    url("TurismoCF-400.woff2") format("woff2"),
+    url("TurismoCF-400.woff") format("woff"),
+    url("TurismoCF-400.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Turismo CF";
+  src: url("TurismoCF-100.eot");
+  src: local("Turismo CF 100"), local("TurismoCF-100"),
+    url("TurismoCF-100.eot?#iefix") format("embedded-opentype"),
+    url("TurismoCF-100.woff2") format("woff2"),
+    url("TurismoCF-100.woff") format("woff"),
+    url("TurismoCF-100.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
